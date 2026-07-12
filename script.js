@@ -1,4 +1,4 @@
-const API = "https://YOUR-RENDER-APP.onrender.com";
+const API = "https://minecraft-afk-bot-3e9c.onrender.com";
 
 
 
