@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Minecraft Bot Panel</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+<h1>🤖 Minecraft Bot Panel</h1>
+
+
+<label>Server IP</label>
+<input id="host" placeholder="example.aternos.me">
+
+
+<label>Port</label>
+<input id="port" placeholder="25565" value="25565">
+
+
+<label>Number of Bots</label>
+<input id="amount" type="number" value="1">
+
+
+<button onclick="connectBot()">
+Connect Bots
+</button>
+
+
+<button class="stop" onclick="stopBot()">
+Stop Bots
+</button>
+
+
+<div id="status">
+Status: Ready
+</div>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
